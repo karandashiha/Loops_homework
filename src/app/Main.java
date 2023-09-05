@@ -5,11 +5,13 @@ public class Main {
 
         int [] num = {1,2,3,4,5,6};
         int sum = 0;
+        int count=0;
 
-        for ( int i = 0;  i < num.length; i++){
+        for ( int n : num){
 
-            sum += num[i];
-            System.out.println((i + 1) + ") Num is " + num[i] + " sum is " + sum);
+            sum += n;
+            count++;
+            System.out.println( count + ") Num is " + n + " sum is " + sum);
 
         }
         System.out.println("---------------------\n" +
